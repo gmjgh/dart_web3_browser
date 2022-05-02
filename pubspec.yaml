@@ -1,0 +1,16 @@
+name: web3_browser
+description: Support for using web3 dart with browser clients such as MetaMask.
+version: 0.0.1
+homepage: https://pwa.ir
+repository: https://github.com/xclud/dart_web3_browser
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  web3dart: ^2.3.5
+  js: ^0.6.4
+
+dev_dependencies:
+  test: ^1.17.0
+  lints: ^1.0.0
