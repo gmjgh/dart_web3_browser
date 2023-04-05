@@ -72,7 +72,7 @@ extension DartEthereum on Ethereum {
 }
 
 class _MetaMaskRpcService extends RpcService {
-  _MetaMaskRpcService(this._ethereum);
+  _MetaMaskRpcService(this._ethereum) : super('');
 
   final Ethereum _ethereum;
 

@@ -57,6 +57,12 @@ class MetaMaskCredentials extends CredentialsWithKnownAddress
 
     return res as String;
   }
+
+  @override
+  MsgSignature signToEcSignature(Uint8List payload, {int? chainId, bool isEIP1559 = false}) {
+    // TODO: implement signToEcSignature
+    throw UnimplementedError();
+  }
 }
 
 String? _bigIntToQuantity(BigInt? int) {

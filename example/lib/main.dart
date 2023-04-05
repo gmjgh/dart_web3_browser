@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:html';
 import 'dart:typed_data';
 
-import 'package:web3dart/browser.dart';
+import 'package:web3_browser/web3_browser.dart';
 import 'package:web3dart/web3dart.dart';
 
 Future<void> main() async {
